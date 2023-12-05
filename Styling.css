@@ -1,0 +1,31 @@
+/* Basic styles for the invoice generator */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
