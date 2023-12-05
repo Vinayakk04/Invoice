@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+  <header>
+    <h1>Invoice Generator</h1>
+  </header>
+  <main>
+    <section class="landing">
+      <h2>Welcome to the Invoice Generator!</h2>
+      <p>Create your invoices easily.</p>
+      <button onclick="redirectToGenerator()">Create Invoice</button>
+    </section>
+    <section class="invoice-generator hidden" id="invoiceGenerator">
+      <h2>Invoice Details</h2>
+      <input type="text" id="productName" placeholder="Product Name">
+      <input type="number" id="unit" placeholder="Units">
+      <input type="number" id="price" placeholder="Price (in Rupees)">
+      <button onclick="addProduct()">Add Product</button>
+      <hr>
+      <div id="invoiceDetails"></div>
+    </section>
+  </main>
+  <script src="Working.js"></script>
+</body>
+</html>
